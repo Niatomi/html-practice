@@ -1,0 +1,23 @@
+body {
+  display: block;
+  margin: 8px;
+}
+
+.block {
+  background-color: green;
+  width: 49%;
+  height: 300px;
+  margin-right: 2%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.block:last-child {
+  margin-right: 0;
+}
+
+.container {
+  border: 1px solid black;
+  width: 80%;
+  margin: 0 auto;
+}
